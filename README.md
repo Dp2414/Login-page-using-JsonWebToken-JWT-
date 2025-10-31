@@ -78,9 +78,7 @@ JWT Practice/
 
 ## 🚀 Getting Started
 
-### Prerequisites
-- Node.js installed
-- MongoDB Atlas account (or local MongoDB)
+
 
 ### Installation
 
@@ -120,12 +118,7 @@ mongoose.connect("your-mongodb-connection-string")
 4. Redirects to `/dashboard` → Shows user info
 5. User logs out → Cookie cleared → Redirects to `/login`
 
-## 📱 Usage
 
-1. **Sign Up**: Create new account with name, email, password
-2. **Login**: Access existing account with email, password
-3. **Dashboard**: View user information and logout
-4. **Protected Routes**: Automatic authentication checking
 
 ## 🛡️ Security Features
 
@@ -137,4 +130,3 @@ mongoose.connect("your-mongodb-connection-string")
 
 ---
 
-Built with ❤️ using modern web technologies"# Login-page-using-JsonWebToken-JWT-" 
