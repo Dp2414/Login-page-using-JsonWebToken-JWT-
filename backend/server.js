@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors({ credentials: true, origin: "http://localhost:5173" }));
 
-mongoose.connect("mongodb+srv://dpdp8311:dpdp8311@cluster0.5ysqydm.mongodb.net/Practice")
+mongoose.connect("mongodb+srv://.mongodb.net/Practice")
   .then(() => console.log("Connected to database"))
   .catch((e) => console.log(e));
 
